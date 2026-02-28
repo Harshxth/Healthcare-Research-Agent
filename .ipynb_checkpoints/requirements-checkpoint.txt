@@ -1,0 +1,6 @@
+crewai==0.60.0
+pymed==0.8.9
+pandas==2.1.4
+matplotlib==3.8.2
+python-dotenv==1.0.0
+langchain-ollama==0.1.1

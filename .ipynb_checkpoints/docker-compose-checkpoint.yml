@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  healthcare-agent:
+    build: .
+    container_name: healthcare-research-agent
+    env_file:
+      - .env
+    volumes:
+      - ./reports:/app/reports
+    extra_hosts:
+      - "host.docker.internal:host-gateway"   # lets Docker talk to Ollama on host
+    environment:
+      - PYTHONUNBUFFERED=1
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434   # points to host Ollama
+    command: >
+      python -m src.main
+      --query "${RESEARCH_QUERY:-hospital readmissions in heart failure}"
+      --outdir reports
