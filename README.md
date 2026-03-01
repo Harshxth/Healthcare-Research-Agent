@@ -59,7 +59,7 @@ query = "copd readmissions"  # ← edit here
 
 ## Architecture
 
-![Healthcare Agent Architecture](Healthcare_agent_architecture.png)
+![Healthcare Agent Architecture](architecture.png)
 
 ## Tech Stack
 
