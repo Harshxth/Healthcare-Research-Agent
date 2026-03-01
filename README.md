@@ -1,3 +1,7 @@
+[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://python.org)
+[![CrewAI](https://img.shields.io/badge/CrewAI-v0.60-orange)](https://crewai.com)
+[![Demo](https://img.shields.io/badge/Demo-Live-green)](reports/demo.md)
+
 # Healthcare Research Agent
 
 **4-Agent AI system that searches PubMed and creates medical research reports**
