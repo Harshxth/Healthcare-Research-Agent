@@ -55,13 +55,7 @@ query = "copd readmissions"  # ← edit here
 
 ## Architecture
 
-```
-Medical Query → PubMed API → 15 Articles → 4 Agents → Executive Report
-                         ↓
-              ┌──────────┼──────────┼──────────┐
-              │Researcher│Analyzer │Validator │Reporter
-              └──────────┴──────────┴──────────┘
-```
+![Healthcare Agent Architecture](Healthcare_agent_architecture.png)
 
 ## Tech Stack
 
