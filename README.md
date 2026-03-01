@@ -42,7 +42,7 @@ query = "copd readmissions"  # ← edit here
 
 ## Live Demo Output
 
-**Query:** "30-day hospital readmissions heart failure"
+**Query:** "Advances in Sepsis Diagnosis and Prognosis"
 
 **Generated Report:** [reports/report_20260228_181608.md](reports/report_20260228_183030.md)
 
