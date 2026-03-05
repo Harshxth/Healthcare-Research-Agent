@@ -46,7 +46,7 @@ No file editing needed — just pass your query directly.
 
 - Teaching hospitals: 12.6% lower readmissions
 - AHA checklists: 17.4% vs 24.5% readmission rates  
-- Higher diuretics → better outcomes
+- Higher diuretics → better outcomes.
 
 ## Architecture
 
