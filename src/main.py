@@ -6,7 +6,7 @@ from crewai import Crew, Agent, Task
 load_dotenv()
 
 def main():
-    query =  "breast cancer screening guidelines 2026"
+    query =  "Alzheimer disease early intervention"
     
     # Direct PubMed (already working!)
     from src.tools.pubmed_direct import search_pubmed
