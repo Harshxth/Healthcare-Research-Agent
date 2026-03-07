@@ -23,18 +23,30 @@
 
 **First run downloads llama3.1:8b (5GB, one time)**
 
-## How to use
 
-### Option 1 — Default Demo
-    python src/main.py
+## How to Use
 
-### Option 2 — Custom Query from Terminal
+### Option 1 — Streamlit UI (Local)
+    streamlit run app1.py
+
+Open → http://localhost:8501
+
+- Paste any medical query → instant report
+- View PubMed sources inline
+- Download report as Markdown
+- No terminal needed
+
+### Option 2 — Custom Query (Terminal)
     python run_query.py "copd exacerbations readmissions"
     python run_query.py "type 2 diabetes GLP1 outcomes"
     python run_query.py "sepsis early warning scores"
     python run_query.py "breast cancer screening guidelines"
 
 No file editing needed — just pass your query directly.
+
+### Option 3 — Default Demo
+    python src/main.py
+
 
 ## Live Demo Output
 
