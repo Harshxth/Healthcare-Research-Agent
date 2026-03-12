@@ -48,7 +48,13 @@ No file editing needed — just pass your query directly.
     python src/main.py
 
 
-## Live Demo Output
+## Streamlit UI Demo
+
+![Healthcare Research Agent](screenshots/healthcare_agent_screenshot.png)
+
+**Live medical query interface** — paste question, get instant PubMed report with agent analysis.
+
+## Sample Output
 
 **Query:** "Advances in Sepsis Diagnosis and Prognosis"
 
