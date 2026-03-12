@@ -50,7 +50,7 @@ No file editing needed — just pass your query directly.
 
 ## Streamlit UI Demo
 
-![Healthcare Research Agent](screenshots/healthcare_agent_screenshot.png)
+![Healthcare Research Agent(healthcare_agent_screenshot.png)
 
 **Live medical query interface** — paste question, get instant PubMed report with agent analysis.
 
